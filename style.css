@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@200&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav{
+    margin: 22px 39px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 74px;
+}
+
+hr{
+    width: 95%;
+    border: 1px solid black;
+}
+
+.menu ul{
+    display: flex;
+    gap: 46px;
+}
+
+.menu ul li a{
+   font-size: 22px;
+   color: black;
+   font-weight: 400px;
+}
+
+.signin{
+    font-size: 24px;
+    padding: 10px 30px;
+    background:#1A579D;
+    border: none;
+    color: white;
+}
+
+.signin p{
+    font-weight: 800;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin: 61px 56px;
+}
+
+.head{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.info{
+    font-size: 25px;
+    padding-left: 131px;
+}
+
+.play{
+    font-size: 28px;
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    margin: 10px 46px;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.watch{
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    padding-top: 170px;
+}
+
+.content2{
+    display: flex;
+    justify-content: space-between;
+    margin: 61px 56px;
+}
+
+.head2{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.blocks{
+    border: 1px solid black;
+    height: 183px;
+    width: 306px;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.para p{
+    font-size: 20px;
+    margin: 20px 30px;
+}
+
+.hehe{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 3fr));
+    grid-template-rows: repeat(2, minmax(150px, 3fr));
+    row-gap: 3px;
+    column-gap: 28px;
+}
